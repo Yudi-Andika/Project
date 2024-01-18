@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <!-- BS Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- Css gweh -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="home">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black shadow fixed-top ">
+    <div class="container">
+      <a class="navbar-brand" href="#"> <a class="navbar-brand" href="#">
+          <img src="img/Logo.jpg" alt="Logo" width="40" height="40" class="d-inline-block align-text-top rounded">
+        </a></a>
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse container" id="navbarNav">
+        <ul class="navbar-nav  ms-auto ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar end -->
+
+  <!-- Jumbotron -->
+  <section class="jumbotron text-center bg-dark" style="background: url(img/aurora.jpg);background-size: cover;">
+    <img src="img/Logo.jpg" alt="" width="200" class="rounded-circle"><BR></BR>
+    <h1 class="display-4" style="color: white;"> <strong><strong>ASTROPEDIA</strong></strong></h1>
+    <p style="color: white;">Informasi Luar Angkasa</p>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="white" fill-opacity="1"
+        d="M0,256L60,229.3C120,203,240,149,360,133.3C480,117,600,139,720,165.3C840,192,960,224,1080,218.7C1200,213,1320,171,1380,149.3L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- jumbotron end -->
+
+  <!-- about -->
+  <section id="about">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <h2>About</h2>
+        </div>
+      </div><br>
+      <div class="row justify-content-center fs-4 text-center">
+        <div class="col-md-5">
+          <p> Selamat datang di ASTROPEDIA. Astropedia adalah sumber terpercaya untuk pengetahuan dan informasi tentang
+            astronomi. Saya berkomitmen untuk memberikan konten berkualitas tinggi kepada para pecinta langit dan siapa
+            pun yang ingin menjelajahi misteri alam semesta.</p>
+        </div>
+        <div class="col-md-5">Halo, saya Yudi Andika, dan saya adalah seorang penyuka astronomi pemula. Siingkatnya,
+          saya tertarik dengan keindahan alam semesta karena sebuah scene disebuah Anime.
+          Ketertarikan ini terus berkembang seiring waktu, dan saya memutuskan untuk membagikan pengetahuan dan
+          kecintaan saya kepada orang lain melalui situs web ini."</div>
+      </div>
+    </div>
+  </section>
+  <!-- about end -->
+
+  <!-- waves -->
+  <section id="waves1">
+    <div class="wave wave11"></div>
+    <div class="wave wave22"></div>
+    <div class="wave wave33"></div>
+    <div class="wave wave44"></div>
+  </section>
+  <!-- waves end -->
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <h2>Gallery</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-7 mb-3">
+          <div class="card">
+            <div id="carouselExampleCaptions" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/nebula/mikiway.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Milky Way</h5>
+                    <p>Milky Way adalah galaksi spiral tempat Bumi berada. Ia memiliki diameter sekitar 100.000 tahun
+                      cahaya dan terdiri dari miliaran bintang, planet, gas, dan debu antariksa.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/nebula/milkyway2.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/nebula/milkywy3.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 mb-3">
+          <div class="card" style="background: transparent; color: white;">
+            <img src="img/nebula/Carina.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Carina Nebula</h5>
+              <p class="card-text">Nebulosa raksasa yang terletak di konstelasi Carina. Nebulosa
+                ini memiliki ukuran besar dan mencakup sekitar 300 tahun cahaya. Di dalamnya terdapat fitur menarik
+                seperti "Tongkol Raksasa" yang merupakan kolom gas dan debu yang besar. Carina Nebula juga terkenal
+                karena menjadi tempat pembentukan bintang baru.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-transparent text-white">
+            <img src="img/nebula/the eagle.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Nebula the Eagle</h5>
+              <p class="card-text">Nebulosa terkenal yang terletak di
+                konstelasi Serpens. Nebulosa ini memiliki struktur menyerupai elang terbang dan terdiri dari awan gas,
+                debu, dan materi antariksa. Fitur menonjolnya adalah "Pilar Pembentukan Bintang"
+                yang merupakan kolom gas dan debu. Nebula Elang juga memiliki wilayah yang disebut "Cakram Terang"
+                dengan
+                aktivitas pembentukan bintang yang intens.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card  bg-transparent text-white">
+            <img src="img/nebula/ngc346.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>NGC 346</h5>
+              <p class="card-text"> Sebuah gugus bintang muda dan nebulosa terletak di Galaksi Kecil
+                Magellan. Gugus ini memiliki struktur yang indah dan menarik, terdiri dari bintang-bintang muda yang
+                sedang terbentuk dalam nebulosa gas dan debu. NGC 346 merupakan tempat aktif pembentukan bintang dan
+                wilayah dengan aktivitas yang tinggi.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card  bg-transparent text-white">
+            <img src="img/nebula/Smacs 0723.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>SMACS 0723</h5>
+              <p class="card-text">Gugusan galaxy yg sangat indah ini diambil oleh teleskop James Webb. Teleskop James
+                Webb telah menghasilkan gambar inframerah terdalam dan paling tajam dari alam semesta yg sangat jauh.
+                Itulah mengapa foto ini diberi nama "Firs Deep Field Webb". Detail yg sangat tajam ini menampilkan
+                ribuan Galaxy dan termasuk beberapa objek paling redup yg pernah diamati dalam pengamatan inframerah.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- carousel autoplay -->
+        <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+              aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner rounded ">
+            <div class="carousel-item active">
+              <img src="img/Auto play/wp3737862-night-mountains-wallpapers.jpg" class="d-block w-100 " alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/Auto play/wp4787752-night-sky-tumblr-desktop-wallpapers.jpg" class="d-block w-100"
+                alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/Auto play/wp5569650-night-sky-4k-wallpapers.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/Auto play/aurora borealis.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/Auto play/wp5569879-night-sky-4k-wallpapers.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- carousel autoplay end -->
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,64L48,85.3C96,107,192,149,288,144C384,139,480,85,576,69.3C672,53,768,75,864,96C960,117,1056,139,1152,128C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- Gallery end -->
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <div class="row text-center ">
+        <div class="col">
+          <h2>Contact Me</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="mb-3">
+            <label for="name" class="form-label">Nama Lengkap</label>
+            <input type="text" class="form-control" id="name" aria-describedby="nama">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" aria-describedby="email">
+          </div>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="pesan"
+              style="height: 100px"></textarea>
+            <label for="pesan" row="3">Pesan</label>
+          </div><br>
+          <button type="submit" class="btn btn-dark">Kirim</button>
+        </div>
+      </div>
+  </section>
+  <!-- Contact End -->
+
+  <!-- waves -->
+  <section id="waves">
+    <div class="wave wave1"></div>
+    <div class="wave wave2"></div>
+    <div class="wave wave3"></div>
+    <div class="wave wave4"></div>
+  </section>
+  <!-- waves end -->
+
+  <!-- footer -->
+  <footer class="bg-dark text-white pt-5 pb-4">
+
+    <div class="container text-center text-md-left" style="text-align: left;">
+      <div class="row text-start text-md-left">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Astropedia</h5>
+          <p>Situs ini menawarkan konten berkualita tentang Astrinimi.Anda akan menemukan gamabar dan foto langit dengan
+            cara yg memukau</p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">product</h5>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">YTTA</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Creativity</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">source file</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">bootstrap 5 alpha</a>
+          </p>
+
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Usefull link</h5>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">yudiandika291@gmail.com</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Become an Affiliates</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;"> Snipping Rates</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Help</a>
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">contact</h5>
+          <p>
+            <i class="fas fa-home mr-3"></i> Ds. Prambon, Kec. Tugu, Kab. Trenggalek
+          </p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> yudiandika291@gmail.com
+          </p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> +6285234567890
+          </p>
+          <p>
+            <i class="fas fa-print mr-3"></i> +6247638902325
+          </p>
+        </div>
+      </div>
+      <hr class="mb-4">
+      <div class="row align-items-center">
+        <div class=" col-md-7 col-lg-8">
+          <p>Copyright ©2023 ALL rights reserved by:
+            <a href="#" style="text-decoration: none;">
+              <strong class="text-warning">Yudi Andika</strong>
+            </a>
+          </p>
+        </div>
+        <div class="col-md-5 col-lg-4">
+          <div class="text-center text-md-right">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-google-plus"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-youtube"></i></a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

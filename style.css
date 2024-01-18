@@ -1,0 +1,153 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Mono:ital@1&display=swap');
+
+.jumbotron
+{
+  padding-top: 6rem;
+  font-family:'SpaceMono',monospace;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+section
+{
+  padding-top: 5rem;
+}
+
+#gallery
+{
+  background-color: rgb(3, 1, 25);
+  color: white;
+}
+
+/* wave */
+#waves
+{
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+}
+#waves .wave
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(img/wave.png);
+  filter: invert(89%) sepia(10%) saturate(1136%) hue-rotate(169deg) brightness(92%) contrast(90%);
+  background-size: 1000px 100px;
+}
+
+#waves .wave.wave1
+{
+  animation: animate 10s linear infinite;
+  z-index: 1000;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: 0;
+}
+#waves .wave.wave2
+{
+  animation: animate2 15s linear infinite;
+  z-index: 999;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 10px;
+}
+#waves .wave.wave3
+{
+  animation: animate 30s linear infinite;
+  z-index: 998;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom: 15;
+}
+#waves .wave.wave4
+{
+  animation: animate2 5s linear infinite;
+  z-index: 997;
+  opacity: 0.7;
+  animation-delay: -5s;
+  bottom: 20px;
+}
+
+/* waves 1 */
+#waves1
+{
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+}
+#waves1 .wave
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(img/wave.png);
+  filter: invert(90%) sepia(5%) saturate(5574%) hue-rotate(203deg) brightness(83%) contrast(120%);  background-size: 1000px 100px;
+}
+
+#waves1 .wave.wave11
+{
+  animation: animate 10s linear infinite;
+  z-index: 1000;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: 0;
+}
+#waves1 .wave.wave22
+{
+  animation: animate2 15s linear infinite;
+  z-index: 999;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 10px;
+}
+#waves1 .wave.wave33
+{
+  animation: animate 30s linear infinite;
+  z-index: 998;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom: 15;
+}
+#waves1 .wave.wave44
+{
+  animation: animate2 5s linear infinite;
+  z-index: 997;
+  opacity: 0.7;
+  animation-delay: -5s;
+  bottom: 20px;
+}
+@keyframes animate
+{
+  0%
+  {
+    background-position-x: 0;
+  }
+  100%
+  {
+    background-position-x: 1000px;
+  }
+}
+
+@keyframes animate2
+{
+  0%
+  {
+    background-position-x: 0;
+  }
+  100%
+  {
+    background-position-x: -1000px;
+  }
+}
